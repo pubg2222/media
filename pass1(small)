@@ -17,8 +17,9 @@ B	DC	'1'
 		='1'	
 	END
 ################################################ CODE #####################################################
+################################# create code file named "pass1.java" ####################################
 import java.io.*;
-class SymTab
+class pass1
 {
 	public static void main(String args[])throws Exception
 	{
