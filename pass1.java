@@ -1,3 +1,18 @@
+################################################ Input File #############################################################
+############# create input file named as "input.asm" ####################################################################
+		START	100
+		READ 	N
+		MOVER	BREG	='1'
+		MOVER	BREG	TERM
+		MOVEM	BREG	TERM
+A		MULT	BREG	TERM
+		LTORG
+		MOVER	CREG	='2'
+		MOVEM	BREG	='5'
+		LTORG
+N		DS	1
+TERM		DS	1
+################################################ CODE ###################################################################
 import java.util.Scanner;
 import java.util.StringTokenizer;
 import java.io.*;
